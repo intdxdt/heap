@@ -2,10 +2,14 @@ github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf h1:NrF81UtW8gG2LBGk
 github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf/go.mod h1:VzmDKDJVZI3aJmnRI9VjAn9nJ8qPPsN1fqzr9dqInIo=
 github.com/intdxdt/cmp v1.0.1 h1:bv/Alg+/PcwlZ7a4+1E4MYpm782sYf/RGjo/dEacBx0=
 github.com/intdxdt/cmp v1.0.1/go.mod h1:BiWqC7pgbNOUTc8m7kRQQdGtA/poCyQj9Y8R4vTpXW0=
+github.com/intdxdt/cmp v1.0.2 h1:JpnllPk0N0wzU7cXs4LBJS64CLJSQRy2C/nc1rSe9u8=
+github.com/intdxdt/cmp v1.0.2/go.mod h1:u9WIwAXz73uLeOxTi0F4VuocJcYK8hq18h5SfBG4okk=
 github.com/intdxdt/dbits v1.0.2 h1:6+9+xn8MHGWD6bpjtyeo4UJ3lEsafTtIEz0NVq13qLQ=
 github.com/intdxdt/dbits v1.0.2/go.mod h1:I5ICUsGVeXC/RSxK0CLsWt+9UPLq/sQo55GsJzOG6WY=
 github.com/intdxdt/math v1.2.2 h1:ebAyfhKXKx6d6DZbtNy/bUeW4YzaIwRthT+HUCR6MsM=
 github.com/intdxdt/math v1.2.2/go.mod h1:qtoziBOoKcRTdglGMVbCfCavZTsNqjjkxKTidf5W1fA=
+github.com/intdxdt/math v1.2.3 h1:mXe/4PpdE6+iZgPH5YEewk31jeO5kZRULIB4RF9TCcY=
+github.com/intdxdt/math v1.2.3/go.mod h1:N9Ir4gZLJX5yZT9Fdofhw5RzuxjN5DLdJx6gmNw+tGs=
 github.com/intdxdt/robust v1.0.2 h1:/rQ1gbCc4I5XydkT5WRBvlnvTpv5kWTlddxx8l3OW7k=
 github.com/intdxdt/robust v1.0.2/go.mod h1:IVgf85vTZmlu75jeKpQtK/gaUrWMHbshR8NTnLwhMVc=
 github.com/intdxdt/twiddle v1.0.2 h1:T4F7rO18mboiGl2oZ1aJmkXukRtHRIhI/82E/nPnQp8=
