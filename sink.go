@@ -1,7 +1,7 @@
 package heap
 
-//SinkDown - swaps element at index with child downward the heap
-//param  index {Number} - integer index
+// SinkDown - swaps element at index with child downward the heap
+// param  index {Number} - integer index
 func (hp *Heap) SinkDown(index int) {
 	var child1 interface{}
 	// Look up the target element and its score.
@@ -20,7 +20,7 @@ func (hp *Heap) SinkDown(index int) {
 			child1 = hp.content[indexChild1]
 			// If the score is less than our element"s, we need to swap_index.
 			if hp.htype.IsMin() {
-				if hp.cmp(child1,element) < 0 {
+				if hp.cmp(child1, element) < 0 {
 					swapIndex = indexChild1
 				}
 			} else {

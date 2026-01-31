@@ -1,7 +1,7 @@
 package heap
 
-//BubbleUp - swaps element at index with parent upward the heap
-//param index {Number} - integer index
+// BubbleUp - swaps element at index with parent upward the heap
+// param index {Number} - integer index
 func (hp *Heap) BubbleUp(index int) {
 	var element = hp.content[index]
 	var found = false
@@ -11,11 +11,11 @@ func (hp *Heap) BubbleUp(index int) {
 		var parentIndex = ((index + 1) / 2) - 1
 		var parent = hp.content[parentIndex]
 		if hp.htype.IsMin() {
-			if hp.cmp(element,parent) >= 0 {
+			if hp.cmp(element, parent) >= 0 {
 				found = true
 			}
 		} else {
-			if hp.cmp(element,parent) <= 0 {
+			if hp.cmp(element, parent) <= 0 {
 				found = true
 			}
 		}

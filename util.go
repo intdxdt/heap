@@ -13,8 +13,7 @@ func pop(a []interface{}) (interface{}, []interface{}) {
 	return v, a[:n]
 }
 
-//is index nil type
+// is index nil type
 func isNil(v int) bool {
 	return v == nilIndex
 }
-

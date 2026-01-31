@@ -1,2 +1,2 @@
 # heap
-heap data structure - go
+Heap data structure in Go

@@ -1,9 +1,9 @@
 package heap
 
-//Pops min/max score element from the heap
-//<br> <i>returns type used to build heap</i>
-//returns {*}
-func (hp *Heap) Pop() interface{}{
+// Pop pops min/max score element from the heap
+// <br> <i>returns type used to build heap</i>
+// returns {*}
+func (hp *Heap) Pop() interface{} {
 	if hp.Size() == 0 {
 		return nil
 	}

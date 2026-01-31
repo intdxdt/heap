@@ -1,11 +1,12 @@
 package heap
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 	"testing"
-	"github.com/intdxdt/cmp"
+
 	"github.com/franela/goblin"
+	"github.com/intdxdt/cmp"
 )
 
 func TestHeap(t *testing.T) {
@@ -32,9 +33,9 @@ func TestHeap(t *testing.T) {
 
 		g.It("should test items in the heap as queue", func() {
 			var minHeapClone = minHeap.Clone()
-			g.Assert(len(minHeap.View()) ).Equal(len(data))
-			g.Assert(len(maxHeap.View()) ).Equal(len(data))
-			g.Assert(len(minHeapClone.View()) ).Equal(len(data))
+			g.Assert(len(minHeap.View())).Equal(len(data))
+			g.Assert(len(maxHeap.View())).Equal(len(data))
+			g.Assert(len(minHeapClone.View())).Equal(len(data))
 
 			//, 'max heap desc sort'
 			g.Assert(minHeap.Peek()).Eql(0.)
@@ -101,7 +102,7 @@ func TestHeap(t *testing.T) {
 				r := recover()
 				g.Assert(r != nil).IsTrue()
 			}()
-			NewHeap(cmp.F64,&HeapType{})
+			NewHeap(cmp.F64, &HeapType{})
 		})
 
 		g.It("should test util", func() {
